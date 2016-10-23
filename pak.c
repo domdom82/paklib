@@ -2,8 +2,8 @@
                           pak.c  -  description
                              -------------------
     begin                : Fre Feb 21 17:42:09 CET 2003
-    copyright            : (C) 2003-2004 by Dominik Jall
-    email                : hackebeil20@web.de
+    copyright            : (C) 2003-2016 by Dominik Jall
+    email                : dominik.jall@gmail.com
  ***************************************************************************/
 
 /***************************************************************************
