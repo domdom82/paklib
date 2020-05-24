@@ -78,22 +78,15 @@ int main(int argc, char* argv[])
 		switch(checkPak(openPak(argv[2])))
 		{
 			case -1:
-			printf("pak: ");
-			printf(argv[2]);
-			printf(" --> Magic corrupt / Not a PAK file\n");
+			printf("pak: %s --> Magic corrupt / Not a PAK file\n", argv[2]);
 			return -1;
 			
 			case -2:
-			printf("pak: ");
-			printf(argv[2]);
-			printf(" --> Header corrupt / PAK file broken\n");
+			printf("pak: %s --> Header corrupt / PAK file broken\n", argv[2]);
 			return -1;
 			
 			case 0:
-				
-			printf("pak: ");
-			printf(argv[2]);
-			printf(" --> OK\n");
+			printf("pak: %s --> OK\n", argv[2]);
 						
 		}
 		
